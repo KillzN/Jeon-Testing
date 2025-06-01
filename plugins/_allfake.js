@@ -37,14 +37,14 @@ handler.all = async function (m) {
     global.creador = 'Wa.me/56983073328'
     global.ofcbot = `${conn.user.jid.split('@')[0]}`
     global.asistencia = 'https://wa.me/qr/PAOHAKCEHGUXN1'
-    global.namechannel = 'KILLBOT'
+    global.namechannel = 'JEONBOT'
 
     //Reacciones De Comandos.!
     global.rwait = '🕒'
     global.done = '✅'
     global.error = '✖️'
 
-    //Emojis determinado de KILLBOT Bot
+    //Emojis determinado de JEONBOT Bot
     global.emoji = '🍁'
     global.emoji2 = '⭐'
     global.emoji3 = '✨️'
@@ -97,9 +97,9 @@ handler.all = async function (m) {
     }, { quoted: m }
 
     global.icono = [
-        'https://i.ibb.co/zhrknM6F/avatar-contact.jpg',
-        'https://i.ibb.co/zhrknM6F/avatar-contact.jpg',
-        'https://i.ibb.co/zhrknM6F/avatar-contact.jpg'
+        'https://i.ibb.co/9kgFx7TS/catalogo.png',
+        'https://i.ibb.co/9kgFx7TS/catalogo.png',
+        'https://i.ibb.co/9kgFx7TS/catalogo.png'
     ].getRandom()
 
     global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363393959332331@newsletter", serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }
